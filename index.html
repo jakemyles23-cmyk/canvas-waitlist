@@ -50,40 +50,43 @@ background:#333;
 
 <body>
 
-<div style="display:flex; align-items:center; justify-content:center; gap:60px; flex-wrap:wrap; margin-top:60px;">
+<div style="display:flex; align-items:center; justify-content:center; gap:60px; flex-wrap:wrap; min-height:100vh; padding:60px 40px; box-sizing:border-box;">
 
-  <div style="max-width:500px; text-align:left;">
-    
-    <h1>Stop Missing Canvas Assignments</h1>
+  <div style="flex:1; min-width:320px; max-width:520px; text-align:left;">
+    <h1 style="font-size:64px; line-height:1.05; margin-bottom:20px;">Stop Missing Canvas Assignments</h1>
 
-    <p>
+    <p style="font-size:18px; line-height:1.5; margin-bottom:24px;">
       See what’s due, what’s overdue, and exactly what to work on this week — all in one simple dashboard.
     </p>
 
-    <p><strong>Join the beta launching April 20</strong></p>
+    <p style="font-size:18px; font-weight:bold; margin-bottom:24px;">
+      Join the beta launching April 20
+    </p>
 
-    <form action="https://formspree.io/f/xjgakrnz" method="POST">
-      <input type="email" name="email" placeholder="Enter your email" required>
+    <form action="https://formspree.io/f/xjgakrnz" method="POST" style="margin-bottom:24px;">
+      <input type="email" name="email" placeholder="Enter your email" required
+        style="padding:14px; width:100%; max-width:380px; border-radius:8px; border:1px solid #ccc; font-size:16px; box-sizing:border-box;">
       <br>
-      <button type="submit">Join the Beta</button>
+      <button type="submit"
+        style="padding:14px 24px; background:black; color:white; border:none; border-radius:8px; margin-top:14px; font-size:16px; cursor:pointer;">
+        Join the Beta
+      </button>
     </form>
 
-    <div style="margin-top:25px; line-height:1.8;">
+    <div style="font-size:18px; line-height:1.9;">
       <p>✅ See all assignments in one place</p>
       <p>✅ Know what to prioritize this week</p>
       <p>✅ Stay ahead before deadlines pile up</p>
     </div>
 
+    <p style="margin-top:30px; font-size:20px;">
+      Join the first 25 students getting early access.
+    </p>
   </div>
 
-  <div>
-    <img src="dashboard-preview.png.png" alt="Canvas assignment dashboard preview" style="max-width:600px; width:100%; border-radius:14px; box-shadow:0 10px 30px rgba(0,0,0,0.1);">
+  <div style="flex:1; min-width:320px; max-width:700px; text-align:center;">
+    <img src="dashboard-preview.png" alt="Canvas assignment dashboard preview"
+      style="width:100%; max-width:700px; border-radius:16px; box-shadow:0 12px 35px rgba(0,0,0,0.12);">
   </div>
 
 </div>
-
-<p style="margin-top:60px;">
-Join the first 25 students getting early access.
-</p>
-
-</body>
