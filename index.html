@@ -50,51 +50,43 @@ button:hover{
 
 <body>
 
-<div style="max-width:1200px; margin:auto; padding:60px 40px;">
+<div style="display:flex; align-items:center; justify-content:center; gap:70px; flex-wrap:wrap; max-width:1200px; margin:auto; padding:80px 40px;">
 
-  <div style="text-align:center; margin-bottom:50px;">
-    <h1 style="font-size:48px; margin-bottom:16px;">
+  <div style="flex:1; min-width:320px; max-width:520px; text-align:left;">
+
+    <h1 style="font-size:48px; line-height:1.1; margin-bottom:16px;">
       Stop Missing Canvas Assignments
     </h1>
 
-    <p style="font-size:20px; max-width:700px; margin:auto;">
+    <p style="font-size:20px; margin-bottom:26px;">
       See what’s due, what’s overdue, and exactly what to work on this week — all in one simple dashboard.
     </p>
+
+    <p style="font-size:18px; font-weight:bold;">
+      Join the beta launching April 20
+    </p>
+
+    <form action="https://formspree.io/f/xjgakrnz" method="POST" style="margin-top:10px;">
+      <input type="email" name="email" placeholder="Enter your email" required>
+      <br>
+      <button type="submit">Join the Beta</button>
+    </form>
+
+    <div style="margin-top:30px; font-size:18px; line-height:1.9;">
+      <p>✅ See all assignments in one place</p>
+      <p>✅ Know what to prioritize this week</p>
+      <p>✅ Stay ahead before deadlines pile up</p>
+    </div>
+
+    <p style="margin-top:25px; font-size:20px;">
+      Join the first 25 students getting early access.
+    </p>
+
   </div>
 
-
-  <div style="display:flex; align-items:center; justify-content:center; gap:60px; flex-wrap:wrap;">
-
-    <div style="flex:1; min-width:320px; max-width:520px;">
-
-      <p style="font-size:18px; font-weight:bold;">
-        Join the beta launching April 20
-      </p>
-
-      <form action="https://formspree.io/f/xjgakrnz" method="POST">
-        <input type="email" name="email" placeholder="Enter your email" required>
-        <br>
-        <button type="submit">Join the Beta</button>
-      </form>
-
-      <div style="margin-top:30px; font-size:18px; line-height:1.9;">
-        <p>✅ See all assignments in one place</p>
-        <p>✅ Know what to prioritize this week</p>
-        <p>✅ Stay ahead before deadlines pile up</p>
-      </div>
-
-      <p style="margin-top:25px; font-size:20px;">
-        Join the first 25 students getting early access.
-      </p>
-
-    </div>
-
-
-    <div style="flex:1; min-width:320px; max-width:650px;">
-      <img src="dashboard-preview.png.png"
-      style="width:100%; border-radius:16px; box-shadow:0 12px 35px rgba(0,0,0,0.12);">
-    </div>
-
+  <div style="flex:1; min-width:320px; max-width:650px;">
+    <img src="dashboard-preview.png.png"
+    style="width:100%; border-radius:16px; box-shadow:0 12px 35px rgba(0,0,0,0.12);">
   </div>
 
 </div>
