@@ -8,47 +8,58 @@
 body{
   font-family: Arial, sans-serif;
   margin: 0;
-  background:#f7f7f7;
+  background: #f7f8fb;
+  color: #111827;
 }
 
 h1{
-  font-size:42px;
-  margin-bottom:18px;
+  font-size: 48px;
+  margin-bottom: 18px;
+  line-height: 1.05;
+}
+
+h2{
+  font-size: 38px;
+  margin: 0 0 18px 0;
+}
+
+h3{
+  font-size: 18px;
+  margin-bottom: 14px;
 }
 
 p{
-  font-size:18px;
-  line-height:1.5;
+  font-size: 18px;
+  line-height: 1.6;
 }
 
 input{
-  padding:14px;
-  width:100%;
-  max-width:380px;
-  border-radius:8px;
-  border:1px solid #ccc;
-  font-size:16px;
-  box-sizing:border-box;
+  padding: 14px;
+  width: 100%;
+  max-width: 380px;
+  border-radius: 10px;
+  border: 1px solid #d1d5db;
+  font-size: 16px;
+  box-sizing: border-box;
+  background: white;
 }
 
 button{
-  padding:14px 24px;
-  background:black;
-  color:white;
-  border:none;
-  border-radius:8px;
-  margin-top:14px;
-  font-size:16px;
-  cursor:pointer;
+  padding: 14px 24px;
+  background: #111827;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  margin-top: 14px;
+  font-size: 16px;
+  cursor: pointer;
 }
 
 button:hover{
-  background:#333;
+  background: #1f2937;
 }
 </style>
 </head>
-
-<body>
 
 <body>
 
@@ -56,7 +67,7 @@ button:hover{
 
   <div style="flex:1; min-width:320px; max-width:520px; text-align:left;">
 
-    <h1 style="font-size:48px; line-height:1.1; margin-bottom:16px;">
+    <h1 style="font-size:48px; line-height:1.05; margin-bottom:16px;">
       Stop Missing Canvas Assignments
     </h1>
 
@@ -94,55 +105,61 @@ button:hover{
 </div>
 
 
-<!-- HOW IT WORKS SECTION -->
+<div style="background:#eef4ff; padding:90px 30px; margin-top:40px;">
 
-<div style="max-width:1000px; margin:80px auto; text-align:center;">
+  <div style="max-width:1100px; margin:auto; text-align:center;">
+    <h2>How it works</h2>
+    <p style="max-width:700px; margin:0 auto 50px auto; color:#4b5563;">
+      Built to make Canvas easier to manage, prioritize, and actually stay on top of.
+    </p>
 
-<h2 style="font-size:34px; margin-bottom:40px;">
-How it works
-</h2>
+    <div style="display:flex; gap:30px; justify-content:center; flex-wrap:wrap; align-items:stretch;">
 
-<div style="display:flex; gap:40px; justify-content:center; flex-wrap:wrap;">
+      <div style="background:white; border-radius:18px; padding:30px; max-width:290px; box-shadow:0 10px 25px rgba(0,0,0,0.06);">
+        <div style="font-size:28px; margin-bottom:14px;">📚</div>
+        <h3>All assignments in one place</h3>
+        <p style="color:#4b5563;">
+          Pull your Canvas assignments into one simple dashboard instead of bouncing between tabs.
+        </p>
+      </div>
 
-<div style="max-width:260px;">
-<h3>All assignments in one place</h3>
-<p>
-Automatically pulls your Canvas assignments into one simple dashboard.
-</p>
-</div>
+      <div style="background:white; border-radius:18px; padding:30px; max-width:290px; box-shadow:0 10px 25px rgba(0,0,0,0.06);">
+        <div style="font-size:28px; margin-bottom:14px;">⏱️</div>
+        <h3>Know what to prioritize</h3>
+        <p style="color:#4b5563;">
+          See what’s due today, what’s overdue, and how many hours you need this week.
+        </p>
+      </div>
 
-<div style="max-width:260px;">
-<h3>Know what to prioritize</h3>
-<p>
-See what’s due today, what’s overdue, and how many hours you need this week.
-</p>
-</div>
+      <div style="background:white; border-radius:18px; padding:30px; max-width:290px; box-shadow:0 10px 25px rgba(0,0,0,0.06);">
+        <div style="font-size:28px; margin-bottom:14px;">🔔</div>
+        <h3>Smart reminders</h3>
+        <p style="color:#4b5563;">
+          Get reminders before deadlines so missing assignments stops becoming a pattern.
+        </p>
+      </div>
 
-<div style="max-width:260px;">
-<h3>Smart reminders</h3>
-<p>
-Get reminders before deadlines so you never miss an assignment again.
-</p>
-</div>
+    </div>
 
-</div>
+    <div style="margin-top:70px; background:white; border-radius:20px; padding:40px 20px; max-width:700px; margin-left:auto; margin-right:auto; box-shadow:0 10px 25px rgba(0,0,0,0.06);">
 
-</div>
+      <p style="font-size:28px; margin:0 0 10px 0; font-weight:bold;">
+        Get early access when we launch
+      </p>
 
+      <p style="color:#4b5563; margin:0 0 20px 0;">
+        Join the waitlist and be one of the first students to try it.
+      </p>
 
-<!-- SECOND SIGNUP -->
+      <form action="https://formspree.io/f/xjgakrnz" method="POST">
+        <input type="email" name="email" placeholder="Enter your email" required>
+        <br>
+        <button type="submit">Join the Beta</button>
+      </form>
 
-<div style="text-align:center; margin-bottom:80px;">
+    </div>
 
-<p style="font-size:22px; margin-bottom:15px;">
-Get early access when we launch
-</p>
-
-<form action="https://formspree.io/f/xjgakrnz" method="POST">
-  <input type="email" name="email" placeholder="Enter your email" required>
-  <br>
-  <button type="submit">Join the Beta</button>
-</form>
+  </div>
 
 </div>
 
