@@ -6,87 +6,99 @@
 
 <style>
 body{
-font-family: Arial, sans-serif;
-text-align:center;
-padding:60px;
-background:#f7f7f7;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background:#f7f7f7;
 }
 
 h1{
-font-size:42px;
-margin-bottom:10px;
+  font-size:42px;
+  margin-bottom:18px;
 }
 
 p{
-font-size:18px;
-max-width:600px;
-margin:auto;
-margin-bottom:20px;
+  font-size:18px;
+  line-height:1.5;
 }
 
 input{
-padding:12px;
-width:260px;
-margin-top:20px;
-border-radius:6px;
-border:1px solid #ccc;
+  padding:14px;
+  width:100%;
+  max-width:380px;
+  border-radius:8px;
+  border:1px solid #ccc;
+  font-size:16px;
+  box-sizing:border-box;
 }
 
 button{
-padding:12px 22px;
-background:black;
-color:white;
-border:none;
-border-radius:6px;
-margin-top:10px;
-cursor:pointer;
+  padding:14px 24px;
+  background:black;
+  color:white;
+  border:none;
+  border-radius:8px;
+  margin-top:14px;
+  font-size:16px;
+  cursor:pointer;
 }
 
 button:hover{
-background:#333;
+  background:#333;
 }
 </style>
 </head>
 
 <body>
 
-<div style="display:flex; align-items:center; justify-content:center; gap:60px; flex-wrap:wrap; min-height:100vh; padding:60px 40px; box-sizing:border-box;">
+<div style="display:flex; align-items:center; justify-content:center; gap:50px; flex-wrap:wrap; min-height:100vh; padding:40px 50px; box-sizing:border-box;">
 
-  <div style="flex:1; min-width:320px; max-width:520px; text-align:left;">
-    <h1 style="font-size:64px; line-height:1.05; margin-bottom:20px;">Stop Missing Canvas Assignments</h1>
+  <div style="flex:1; min-width:320px; max-width:540px; text-align:left;">
+    <h1 style="font-size:42px; line-height:1.1; margin-bottom:18px;">
+      Stop Missing Canvas Assignments
+    </h1>
 
-    <p style="font-size:18px; line-height:1.5; margin-bottom:24px;">
+    <p style="font-size:18px; line-height:1.5; margin-bottom:22px;">
       See what’s due, what’s overdue, and exactly what to work on this week — all in one simple dashboard.
     </p>
 
-    <p style="font-size:18px; font-weight:bold; margin-bottom:24px;">
+    <p style="font-size:18px; font-weight:bold; margin-bottom:22px;">
       Join the beta launching April 20
     </p>
 
     <form action="https://formspree.io/f/xjgakrnz" method="POST" style="margin-bottom:24px;">
-      <input type="email" name="email" placeholder="Enter your email" required
-        style="padding:14px; width:100%; max-width:380px; border-radius:8px; border:1px solid #ccc; font-size:16px; box-sizing:border-box;">
+      <input
+        type="email"
+        name="email"
+        placeholder="Enter your email"
+        required
+        style="padding:14px; width:100%; max-width:380px; border-radius:8px; border:1px solid #ccc; font-size:16px; box-sizing:border-box;"
+      >
       <br>
-      <button type="submit"
-        style="padding:14px 24px; background:black; color:white; border:none; border-radius:8px; margin-top:14px; font-size:16px; cursor:pointer;">
+      <button
+        type="submit"
+        style="padding:14px 24px; background:black; color:white; border:none; border-radius:8px; margin-top:14px; font-size:16px; cursor:pointer;"
+      >
         Join the Beta
       </button>
     </form>
 
-    <div style="font-size:18px; line-height:1.9;">
+    <div style="font-size:18px; line-height:1.9; margin-bottom:28px;">
       <p>✅ See all assignments in one place</p>
       <p>✅ Know what to prioritize this week</p>
       <p>✅ Stay ahead before deadlines pile up</p>
     </div>
 
-    <p style="margin-top:30px; font-size:20px;">
+    <p style="font-size:20px; margin:0;">
       Join the first 25 students getting early access.
     </p>
   </div>
 
-  <div style="flex:1; min-width:320px; max-width:700px; text-align:center;">
-    <img src="dashboard-preview.png.png" alt="Canvas assignment dashboard preview"
-      style="width:100%; max-width:700px; border-radius:16px; box-shadow:0 12px 35px rgba(0,0,0,0.12);">
+  <div style="flex:1; min-width:320px; max-width:650px; text-align:center;">
+    <img
+      src="dashboard-preview.png.png"
+      alt="Canvas assignment dashboard preview"
+      style="width:100%; max-width:650px; border-radius:16px; box-shadow:0 12px 35px rgba(0,0,0,0.12); display:block;"
+    >
   </div>
 
 </div>
